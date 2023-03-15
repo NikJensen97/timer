@@ -1,5 +1,5 @@
 let repeat = process.argv.slice(2);
-console.log(repeat);
+// console.log(repeat);
 for (let y = 0; y < repeat.length; y++) {
   if (repeat[y] > 0 && !isNaN(repeat[y])) {
     setTimeout(() => {
